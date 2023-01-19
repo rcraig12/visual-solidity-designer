@@ -13,10 +13,10 @@
   font-size: small;
   cursor: grab;
   user-select: none;
-  box-shadow: inset -25px -15px 40px rgba(4, 246, 37, 0.3);
-	background: radial-gradient(circle at 65% 15%, rgb(255, 255, 255) 1px, rgb(104, 213, 213) 3%, rgb(57, 123, 76) 60%, rgb(79, 123, 81) 100%);
+  box-shadow: inset -25px -15px 40px #04f6254d;
+	background: radial-gradient(circle at 65% 15%, #ffffff 1px, #68d5d5 3%, #397b4c 60%, #4f7b51 100%);
   border-width: 4px;
   border-color: #0d5001;
   border-style: solid;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #000000;
 }
