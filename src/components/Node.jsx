@@ -18,13 +18,17 @@ const Node = () => {
   }
 
   const handleMouseUp = (e) => {
-    setMouseDown(false);
+      setMouseDown(false);
+  }
+
+  const handleMouseOut = (e) => {
+      setMouseDown(false);
   }
 
   const handleMouseMove = (e) => {
     if(mouseDown === true){
-      setLeft(e.clientX - 50);
-      setTop(e.clientY - 50);
+      setLeft(e.clientX );
+      setTop(e.clientY );
     }
   }
 
@@ -32,7 +36,7 @@ const Node = () => {
     <div className="node" style={nodeStyle} 
       onMouseDown={(e) => handleMouseDown(e)}
       onMouseUp={(e) => handleMouseUp(e)}
-      onMouseOut={(e) => handleMouseUp(e)}
+      onMouseOut={(e) => handleMouseOut(e)}
       onMouseMove={(e) => handleMouseMove(e)}
       >title</div>
   )

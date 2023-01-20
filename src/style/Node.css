@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: #0e5d00;
   color: #ffffff;
@@ -19,4 +19,5 @@
   border-color: #0d5001;
   border-style: solid;
   text-shadow: 1px 1px #000000;
+  transform: translate(-50%,-50%);
 }
